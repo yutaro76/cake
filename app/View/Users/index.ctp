@@ -9,9 +9,9 @@
     <?php for($i = 0; $i < count($results); $i++) { ?>
     id:<?php echo $results[$i]['User']['id']; ?> <br>
     name:<?php echo $results[$i]['User']['name']; ?> <br>
-    description:<?php echo $results[$i]['User']['description']; ?> <br>
+    description:<?php echo $results[$i]['User']['place']; ?> <br>
     created:<?php echo $results[$i]['User']['created']; ?> <br>
-    edited:<?php echo $results[$i]['User']['edited'];?> <br>
+    edited:<?php echo $results[$i]['User']['updated'];?> <br>
     <?php } ?>
 </body>
 </html>

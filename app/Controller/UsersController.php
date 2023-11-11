@@ -9,7 +9,6 @@ class UsersController extends AppController
     public function index()
     {
         $results = $this->User->find('all');
-        // $results = 'test';
         $this->set('results', $results);
     }
 }
