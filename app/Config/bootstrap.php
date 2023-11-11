@@ -112,3 +112,7 @@ CakeLog::config('error', array(
 
 // app/Config/bootstrap.php
 CakePlugin::load('DebugKit');
+
+// set default timezone
+date_default_timezone_set('Asia/Manila');
+ini_set('date.timezone', 'Asia/Manila');
